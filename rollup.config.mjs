@@ -1,6 +1,8 @@
-import resolve from 'rollup-plugin-node-resolve';
+import resolve from '@rollup/plugin-node-resolve';
 import json from '@rollup/plugin-json';
-import ignore from './rollup-plugins/ignore';
+import ignore from './rollup-plugins/ignore.js';
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
 
 export default {
   input: 'src/index.js',
