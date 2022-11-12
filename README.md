@@ -32,7 +32,7 @@ For help, visit the light entity support thread [here](https://community.home-as
 
 Add through  [HACS](https://github.com/custom-components/hacs)
 
-Issues with the installation should be asked in the [Home Asssitant forums](https://community.home-assistant.io/t/light-entity-card/96146)
+Issues with the installation should be asked in the [Home Assistant forums](https://community.home-assistant.io/t/light-entity-card/96146)
 
 ## Configurations
 
@@ -86,6 +86,7 @@ group: true
 | temperature_icon     | string              | **Optional** | `thermometer` change the temperature slider icon                            |
 | speed_icon           | string              | **Optional** | `speedometer` change the speed slider icon                                  |
 | intensity_icon       | string              | **Optional** | `transit-connection-horizontal` change the intensity slider icon            |
+| header_icon          | string              | **Optional** | `lightbulb` change the header icon                                          |
 | show_slider_percent  | boolean             | **Optional** | `false` show percent next to sliders                                        |
 | smooth_color_wheel   | boolean             | **Optional** | `false` smooth out color wheel for more colors                              |
 | child_card           | boolean             | **Optional** | `false` remove padding/margin to make this card within another card         |

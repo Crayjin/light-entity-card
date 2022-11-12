@@ -25,4 +25,5 @@ export default {
   temperature_icon: 'thermometer',
   speed_icon: 'speedometer',
   intensity_icon: 'transit-connection-horizontal',
+  header_icon: 'lightbulb'
 };

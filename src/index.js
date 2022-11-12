@@ -268,6 +268,9 @@ class LightEntityCard extends ScopedRegistryHost(LitElement) {
 
     return html`
       <div class="light-entity-card__header">
+        <div class="icon-container">
+          <ha-icon icon="hass:${this.config.header_icon}"></ha-icon>
+        </div>
         <div class="light-entity-card__title">${title}</div>
         <div class="light-entity-card-toggle">
           <ha-switch .checked=${this.isEntityOn(stateObj)} @change=${e => this.setToggle(e, stateObj)}></ha-switch>

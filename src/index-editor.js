@@ -98,6 +98,16 @@ export default class LightEntityCardEditor extends ScopedRegistryHost(LitElement
           >
             ${options}
           </mwc-select>
+        </div>
+
+        <div class='entities'>
+          <ha-form-string
+            .schema=${{ name: 'header_icon', type: 'string' }}
+            label="Brightness Icon"
+            .data="${this._config.header_icon}"
+            .configValue="${'header_icon'}"
+            @value-changed="${this.configChanged}"
+          ></ha-form-string>
           <ha-form-string
             .schema=${{ name: 'brightness_icon', type: 'string' }}
             label="Brightness Icon"
